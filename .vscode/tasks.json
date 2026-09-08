@@ -9,10 +9,10 @@
         "-std=c++17",
         "-Wall",
         "-Wextra",
-        "src/main.cpp",
-        "src/hyphen.cpp",
+        "-g",
+        "${workspaceFolder}/Lab1_19/main.cpp",
         "-o",
-        "hyphen_app"
+        "${workspaceFolder}/Lab1_19/hyphen_app"
       ],
       "group": {
         "kind": "build",

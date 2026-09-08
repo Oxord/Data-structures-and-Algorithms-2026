@@ -5,12 +5,12 @@
       "name": "Debug Lab",
       "type": "lldb",
       "request": "launch",
-      "program": "${workspaceFolder}/hyphen_app",
+      "program": "${workspaceFolder}/Lab1_19/hyphen_app",
       "args": [
         "input.txt",
         "output.txt"
       ],
-      "cwd": "${workspaceFolder}",
+      "cwd": "${workspaceFolder}/Lab1_19",
       "preLaunchTask": "Build C++ Lab"
     },
     {
@@ -18,8 +18,8 @@
       "type": "lldb",
       "request": "launch",
       "args": [],
-      "cwd": ".",
-      "program": "build/Debug/outDebug"
+      "cwd": "/Users/ilyakarakulov/2 Course/Data-structures-and-Algorithms-2026/Lab1_19",
+      "program": "/Users/ilyakarakulov/2 Course/Data-structures-and-Algorithms-2026/Lab1_19/build/Debug/outDebug"
     }
   ]
 }
