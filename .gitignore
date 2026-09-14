@@ -38,6 +38,9 @@
 *.exe
 *.out
 *.app
+Lab1_19/hyphen_app
+Lab1_19/hyphen_app.dSYM/
+Lab1_19/*.zip
 
 # Build directories
 build/

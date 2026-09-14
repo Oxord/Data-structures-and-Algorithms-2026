@@ -1,0 +1,25 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug Lab",
+      "type": "lldb",
+      "request": "launch",
+      "program": "${workspaceFolder}/Lab1_19/hyphen_app",
+      "args": [
+        "input.txt",
+        "output.txt"
+      ],
+      "cwd": "${workspaceFolder}/Lab1_19",
+      "preLaunchTask": "Build C++ Lab"
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/ilyakarakulov/2 Course/Data-structures-and-Algorithms-2026/Lab1_19",
+      "program": "/Users/ilyakarakulov/2 Course/Data-structures-and-Algorithms-2026/Lab1_19/build/Debug/outDebug"
+    }
+  ]
+}
